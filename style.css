@@ -1,0 +1,160 @@
+
+
+body{
+
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+html{
+    width: 100%;
+}
+
+.Block{
+    height: 450px;
+}
+
+
+
+
+.header .logo,.header .links{
+    width: 500px;
+    
+}
+
+.header .links{
+    
+    justify-content: end;
+    gap:40px;
+    align-items: center;
+    color: #E5E7EB;
+    
+    
+}
+
+.header .logo{
+    font-size: 24px;
+    align-self: center;
+    color: #F9FAF8 ;
+    
+}
+
+.Block.one .sub{
+    
+    display: flex;
+    flex-direction: column;
+    width: 500px ;
+    height: 250px;
+    gap: 10px;
+    
+}
+
+.sub img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sub button{
+    background-color: #3882F6 ;
+    width: 80px;
+    height:25px;
+    border: none;
+    border-radius: 3px;
+    color: #F9FAF8 ;
+}
+
+
+.Block.one .sub .logo{
+font-size: 48px;
+color: #F9FAF8;
+font-weight:bolder;
+}
+
+.Block.one .sub .text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.header,.footer{
+    height: 50px;
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.Block.one{
+    
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Block.two{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Block.two .textM{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+
+
+.cards{
+    
+    display: flex;
+    gap: 20px;
+    
+}
+
+.cube{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 120px;
+    height:250px;
+    
+    
+    
+}
+
+.cube .card{
+    width: 140px;
+    height: 140px;
+    border:2px solid #3882F6;
+    border-radius: 8px;
+    flex-shrink: 0;
+
+}
+
+
+
+.Block.three{
+    background-color: #E5E7EB;
+}
+
+button{
+    align-self: self-start;
+}
