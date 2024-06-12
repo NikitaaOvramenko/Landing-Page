@@ -69,6 +69,7 @@ color:#E5E7EB;
     border: none;
     border-radius: 3px;
     color: #F9FAF8 ;
+    align-self: self-start;
 }
 
 
@@ -183,7 +184,17 @@ ul{
     text-align: right;
 }
 
-button{
-    align-self: self-start;
+.Block.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.Block.four .box{
+    background-color: #3882F6 ;
+
+}
+
+
+
 
